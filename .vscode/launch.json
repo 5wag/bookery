@@ -11,7 +11,7 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/src/Bookery/bin/Debug/net9.0/Bookery.dll",
             "console": "internalConsole",
-            "args": ["--hotels", "/home/rkarol/.config/Bookery/Hotels.json", "--bookings", "/home/rkarol/.config/Bookery/Bookings.json"],
+            "args": ["--hotels", "..\\..\\..\\..\\..\\Hotels.json", "--bookings", "..\\..\\..\\..\\..\\Bookings.json"],
             "cwd": "${workspaceFolder}/src/Bookery/bin/Debug/net9.0/",
         },
         {
@@ -24,7 +24,8 @@
             "cwd": "${workspaceFolder}/tests/Bookery.DataGenerator/bin/Debug/net9.0/",
             "env": {
                 "HOTELS_COUNT_MAX": "10",
-                "BOOKINGS_COUNT_MAX": "10"
+                "BOOKINGS_COUNT_MAX": "10",
+                "SAVE_DIR": "..\\..\\..\\..\\..\\"
             }
         }
     ]
