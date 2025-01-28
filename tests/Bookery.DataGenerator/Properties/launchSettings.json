@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Bookery.DataGenerator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "HOTELS_COUNT_MAX": "200",
+        "BOOKINGS_COUNT_MAX": "200",
+        "SAVE_DIR": "..\\..\\..\\..\\..\\"
+      }
+    }
+  }
+}

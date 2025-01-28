@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bookery": {
+      "commandName": "Project",
+      "commandLineArgs": "--hotels \"..\\..\\..\\..\\..\\Hotels.json\" --bookings \"..\\..\\..\\..\\..\\Bookings.json\""
+    }
+  }
+}

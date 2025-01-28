@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "dotnet": {
+      "version": "9.0.101"
+    }
+  }
+}

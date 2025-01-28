@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookery", "src\Bookery\Bookery.csproj", "{A4ECEBA9-9EE9-429A-AAC0-7B05D8A407A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookery.Tests", "tests\Bookery.Tests\Bookery.Tests.csproj", "{490DF54C-3ECD-4CEF-A3A2-A681DB422FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookery.DataGenerator", "tests\Bookery.DataGenerator\Bookery.DataGenerator.csproj", "{D013F7CD-CB07-4BB5-AA8A-4C87A7D55AE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{75E9714B-9DD1-49CF-8BF7-9536E1B853BE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F6EEBBA3-F88B-42DB-9F05-8E4CB8C53011}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4ECEBA9-9EE9-429A-AAC0-7B05D8A407A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4ECEBA9-9EE9-429A-AAC0-7B05D8A407A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4ECEBA9-9EE9-429A-AAC0-7B05D8A407A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4ECEBA9-9EE9-429A-AAC0-7B05D8A407A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490DF54C-3ECD-4CEF-A3A2-A681DB422FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490DF54C-3ECD-4CEF-A3A2-A681DB422FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490DF54C-3ECD-4CEF-A3A2-A681DB422FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490DF54C-3ECD-4CEF-A3A2-A681DB422FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D013F7CD-CB07-4BB5-AA8A-4C87A7D55AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D013F7CD-CB07-4BB5-AA8A-4C87A7D55AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D013F7CD-CB07-4BB5-AA8A-4C87A7D55AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D013F7CD-CB07-4BB5-AA8A-4C87A7D55AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6EEBBA3-F88B-42DB-9F05-8E4CB8C53011} = {75E9714B-9DD1-49CF-8BF7-9536E1B853BE}
+	EndGlobalSection
+EndGlobal

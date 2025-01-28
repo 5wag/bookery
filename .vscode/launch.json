@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Bookery",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Bookery/bin/Debug/net9.0/Bookery.dll",
+            "console": "internalConsole",
+            "args": ["--hotels", "/home/rkarol/.config/Bookery/Hotels.json", "--bookings", "/home/rkarol/.config/Bookery/Bookings.json"],
+            "cwd": "${workspaceFolder}/src/Bookery/bin/Debug/net9.0/",
+        },
+        {
+            "name": "DataGenerator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tests/Bookery.DataGenerator/bin/Debug/net9.0/Bookery.DataGenerator.dll",
+            "console": "internalConsole",
+            "cwd": "${workspaceFolder}/tests/Bookery.DataGenerator/bin/Debug/net9.0/",
+            "env": {
+                "HOTELS_COUNT_MAX": "10",
+                "BOOKINGS_COUNT_MAX": "10"
+            }
+        }
+    ]
+}
